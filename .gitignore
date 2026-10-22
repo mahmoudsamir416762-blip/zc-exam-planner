@@ -1,0 +1,7 @@
+# Student data must never be committed or served as a static asset.
+student-index.js
+students.json
+student_course_rooms.csv
+private/
+.env
+.DS_Store
