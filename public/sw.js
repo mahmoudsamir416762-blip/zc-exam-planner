@@ -1,0 +1,1 @@
+const CACHE='zc-exams-v1';const FILES=['./','./index.html','./style.css','./app.js','./config.js','./app-supabase.js','./data/exams.json','./data/courses.json'];self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));

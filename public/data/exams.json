@@ -1,0 +1,3329 @@
+{
+  "CIE 239": {
+    "date": "2026-11-07",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Digital Design and Computer Architecture",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "MATH 205": {
+    "date": "2026-11-07",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Discrete Mathematics for CS",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "NANENG 323": {
+    "date": "2026-11-07",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Analog Integrated Circuit Design",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "PHYS 455": {
+    "date": "2026-11-07",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Mathematical Physics III",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "REE 470": {
+    "date": "2026-11-07",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Computer-Aided Design and Engineering",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "SPC 470": {
+    "date": "2026-11-07",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Computer-Aided Design and Engineering",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "BMS 405": {
+    "date": "2026-11-07",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Medicinal & Biological Chemistry",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "CIE 478": {
+    "date": "2026-11-07",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Advanced Wireless Communication Systems",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "ITNS 404": {
+    "date": "2026-11-07",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Net Performance Monitoring&Trbl-shooting",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "CSAI 100": {
+    "date": "2026-11-07",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Intro to Computational Science and AI",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "DSAI 427": {
+    "date": "2026-11-07",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Big Data Analytics",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "MATH 101": {
+    "date": "2026-11-07",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Calculus I",
+    "rooms": [
+      "F005-F",
+      "S006-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "NANENG 512": {
+    "date": "2026-11-07",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Applied Digital Control and Drives",
+    "rooms": [
+      "F015-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "PHYS 205": {
+    "date": "2026-11-07",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Introduction to Modern Astrophysics",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "SW 401": {
+    "date": "2026-11-07",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Parallel and Distributed Computing",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "BMS 404": {
+    "date": "2026-11-07",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Biostatistics",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "FINC 405": {
+    "date": "2026-11-07",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Derivative Securities",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "DSAI 203": {
+    "date": "2026-11-07",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Data Integration and Visualization",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "REE 202": {
+    "date": "2026-11-07",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Mechanics of Materials",
+    "rooms": [
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "BENT 301": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Advanced and Corporate Entrepreneurship",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "BGEN 101": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Business Mathematics",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "BLAW 301": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Negotiations and Dispute Settlement",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "DSAI 413": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Multimedia Analytics",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "ENGR 346": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Heat Transfer",
+    "rooms": [
+      "F006-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "ENV 204": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Environmental Engineering Chemistry",
+    "rooms": [
+      "F013-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "ENV 527": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Optimal/Appropriate Technology",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "IT 205": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Enterprise System Architecture",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "NANENG 202": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Digital Logic",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "SWAPD 301": {
+    "date": "2026-11-07",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Software Systems Requirements Dev",
+    "rooms": [
+      "F015-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "BMS 321": {
+    "date": "2026-11-08",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Programming for Computational Biology",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "CIE 206": {
+    "date": "2026-11-08",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Database Management System",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "CSCI 101": {
+    "date": "2026-11-08",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Introduction to Computer Science",
+    "rooms": [
+      "G033-B",
+      "G038-B",
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "DSAI 353": {
+    "date": "2026-11-08",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Natural language processing",
+    "rooms": [
+      "G008-B",
+      "G009-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "REE 590": {
+    "date": "2026-11-08",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Sel Topics: Ren Energy for Water Desal",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "SCH 244": {
+    "date": "2026-11-08",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Leadership & Professionalism",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "SCH 281": {
+    "date": "2026-11-08",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Leadership & Professionalism",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "BCSE 301": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Database Management and Applications",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
+    }
+  },
+  "CIE 318": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Control Systems",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "CSAI 301": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Artificial Intelligence",
+    "rooms": [
+      "S006-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "ENV 207": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Material and Energy Balances",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "MKTG 301": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Market research and consumer behavior",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "NANENG 335": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Introduction to Photonics / Photonics & Laser Physics",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "REE 320": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Advanced Control Systems",
+    "rooms": [
+      "F013-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SCH 210": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Social Issues",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SCH 275": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "The Creative Mind",
+    "rooms": [
+      "G036-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SCH 280": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "The Creative Mind",
+    "rooms": [
+      "G036-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SWGCG 401": {
+    "date": "2026-11-08",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Design & Geom Modeling for Vis & Comm",
+    "rooms": [
+      "F014-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "ENGL 003": {
+    "date": "2026-11-08",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Remedial English 2",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "ENGL 004": {
+    "date": "2026-11-08",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Remedial English 3",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "FINC 401": {
+    "date": "2026-11-08",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Investment Theory",
+    "rooms": [],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "BMS 325": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Clinical Sciences",
+    "rooms": [
+      "F014-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "CSAI 101": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Fundamentals of Programming",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B",
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "CSAI 111": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Fundamentals of Programming",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B",
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "CSAI 202": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Introduction to Database Systems",
+    "rooms": [
+      "F005-F",
+      "G033-B",
+      "F015-D",
+      "F013-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "ENV 411": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Process Synthesis and Simulation",
+    "rooms": [],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "ENV 510": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Process Synthesis and Simulation",
+    "rooms": [],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "REE 208": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Engineering Dynamics",
+    "rooms": [
+      "G038-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SPC 228": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Engineering Dynamics",
+    "rooms": [
+      "G038-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "REE 561": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Special Topics in Adv Thermal Systems",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SPC 302": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Advanced Control Systems",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SWHCI 301": {
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Prototyping Algorithmic Experiences",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "BLAW 201": {
+    "date": "2026-11-08",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Business Law fundamentals",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "BMS 332": {
+    "date": "2026-11-08",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Drug Discovery & Development",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "CIE 455": {
+    "date": "2026-11-08",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Neural Networks and Deep Learning",
+    "rooms": [
+      "F015-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "CSAI 302": {
+    "date": "2026-11-08",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Advanced Database Systems",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "DSAI 406": {
+    "date": "2026-11-08",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Machine Learning Eng for Production",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "NANENG 435": {
+    "date": "2026-11-08",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Nanophotonics / Nano Photonics",
+    "rooms": [
+      "G009-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "ENV 306": {
+    "date": "2026-11-08",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Engineering Hydrology",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "MATSCI 201": {
+    "date": "2026-11-08",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Fundamental of Materials Sci and Engr",
+    "rooms": [
+      "F013-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "MKTG 101": {
+    "date": "2026-11-08",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Principles of Marketing",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "REE 310": {
+    "date": "2026-11-08",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Control Systems",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SPC 210": {
+    "date": "2026-11-08",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Control Systems",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SCHN 405": {
+    "date": "2026-11-08",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Logistics Management",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "SWHCI 352": {
+    "date": "2026-11-08",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "User-Focused Sensing Systems",
+    "rooms": [
+      "F014-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "BMS 344": {
+    "date": "2026-11-09",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Human Embryology",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "DSAI 402": {
+    "date": "2026-11-09",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Reinforcement Learning",
+    "rooms": [
+      "G025-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "IT 411": {
+    "date": "2026-11-09",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Enterprise Resources Planning",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
+    }
+  },
+  "MATH 103": {
+    "date": "2026-11-09",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Calculus for Computational Science",
+    "rooms": [
+      "F005-F",
+      "S006-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "CIE 452": {
+    "date": "2026-11-09",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Advanced Computer Architecture",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "DSAI 308": {
+    "date": "2026-11-09",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Deep Learning",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "MATH 202": {
+    "date": "2026-11-09",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Ordinary Differential Equations",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "MATH 302": {
+    "date": "2026-11-09",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Partial Differential Equations",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "NANENG 437": {
+    "date": "2026-11-09",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Organic Electronics and Photovoltaics",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "CSAI 253": {
+    "date": "2026-11-09",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Machine Learning",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "PHYS 453": {
+    "date": "2026-11-09",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Gravity & General Relativity",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "SCH 273": {
+    "date": "2026-11-09",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Cognitive Psychology",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "BMS 301": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Molecular Biology",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "BMS 435": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Legal Aspects in Drug Desig Development",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "CHEM 201": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Organic Chemistry",
+    "rooms": [],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "MATH 105": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Probability and Statistics",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "NANOSC 403": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Special Topics in Nanomedicine",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "PHYS 105": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Intro to Classical Mechanics for Enginee",
+    "rooms": [
+      "G033-B",
+      "G038-B",
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "REE 432": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Photovoltaic Systems",
+    "rooms": [],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "REE 532": {
+    "date": "2026-11-09",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Photovoltaic Systems",
+    "rooms": [],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "CIE 481": {
+    "date": "2026-11-09",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Information Security and Encryption",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "NANENG 301": {
+    "date": "2026-11-09",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Micro/Nano Fabrication Techniques",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "SPC 497": {
+    "date": "2026-11-09",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Selected topics in Aerospace Engineering",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "FINC 101": {
+    "date": "2026-11-09",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Financial Accounting",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "ITNS 301": {
+    "date": "2026-11-09",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Network Administration",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "SCH 263": {
+    "date": "2026-11-09",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Engineering Ethics and Safety",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "SCH 299": {
+    "date": "2026-11-09",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Special Topics in Humanities",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "SUST 315": {
+    "date": "2026-11-09",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Climate Change and Private Business",
+    "rooms": [
+      "F006-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "SWGCG 301": {
+    "date": "2026-11-09",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Computer Graphics and Multimedia Systems",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "BGEN 201": {
+    "date": "2026-11-09",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Data Analytics",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "ENV 302": {
+    "date": "2026-11-09",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Environmental Laws and Policies",
+    "rooms": [
+      "F014-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "ENV 434": {
+    "date": "2026-11-09",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Safety & Risk Analysis",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "NANENG 431": {
+    "date": "2026-11-09",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Computational Photonics / Applied Computational",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "BMS 201": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "General Microbiology",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "CIE 205": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Data Structures and Algorithm Analysis",
+    "rooms": [
+      "G033-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "ENGR 105": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Engineering Thermodynamics",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "MATH 306": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Numerical Analysis",
+    "rooms": [
+      "F015-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "MATH 404": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Linear and Non-linear Programming",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "PHYS 104": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Physics 2",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 3
+    }
+  },
+  "PHYS 430": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Quantum Mechanic III",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCH 285": {
+    "date": "2026-11-10",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Positive Psychology",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "PHYS 201": {
+    "date": "2026-11-10",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Thermodynamics, Wave Motion and Optics",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "PHYS 224": {
+    "date": "2026-11-10",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Introduction to Modern Physics for Engin",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "REE 490": {
+    "date": "2026-11-10",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Electric Power Generation, Distribution/ Dis & Ut",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "REE 534": {
+    "date": "2026-11-10",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Electric Power Generation, Distribution/ Dis & Ut",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCH 110": {
+    "date": "2026-11-10",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Creativity and Innovation",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "ENV 440": {
+    "date": "2026-11-10",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Advanced Separation Processes / Separation Processes",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "ENV 520": {
+    "date": "2026-11-10",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Advanced Separation Processes / Separation Processes",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "NANENG 520": {
+    "date": "2026-11-10",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Advanced Devices",
+    "rooms": [
+      "F006-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "PHYS 101": {
+    "date": "2026-11-10",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Introduction to Classical Mechanics",
+    "rooms": [
+      "G025-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCHN 401": {
+    "date": "2026-11-10",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Production Planning Proc & Supp Mgt",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SW 403": {
+    "date": "2026-11-10",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "AI in Modern Software Engineering",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SWHCI 401": {
+    "date": "2026-11-10",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Human Information Processing and AI",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "CIE 328": {
+    "date": "2026-11-10",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Electromagnetic Fields and Waves I",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "ECON 101": {
+    "date": "2026-11-10",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Principles of Economics",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "FINC 310": {
+    "date": "2026-11-10",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Corporate Finance",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCH 277": {
+    "date": "2026-11-10",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Positive Psychology",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCH 282": {
+    "date": "2026-11-10",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Arabic Literature",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SPC 307": {
+    "date": "2026-11-10",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Aerodynamics",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "BENT 305": {
+    "date": "2026-11-10",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Entrepreneurial Finance",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "BGEN 110": {
+    "date": "2026-11-10",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Foundations of Statistical Inference",
+    "rooms": [
+      "F006-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "ENV 224": {
+    "date": "2026-11-10",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Ecology for Environmental Engineers",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "IT 402": {
+    "date": "2026-11-10",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Fundamentals of Cybersecurity&Encryption",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCH 211": {
+    "date": "2026-11-10",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Professional Ethics and Legal Aspects",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCH 264": {
+    "date": "2026-11-10",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Intro to Entrepreneurship & Small Mangm",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SWAPD 451": {
+    "date": "2026-11-10",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Software Maintenance",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "BMS 477": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "The Human Genome & Disease",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "CHEM 103": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Introduction to Chemistry for Engineers",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "IT 308": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Cloud Computing Architecture",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "MATH 104": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Linear Algebra",
+    "rooms": [
+      "G033-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "MATH 303": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Linear and Non-linear Programming for CS",
+    "rooms": [
+      "G025-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "NANOSC 305": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Synthesis/Fabrication of Nanomaterials",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SCH 262": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Engineering Project Economics",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SPC 436": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Computational Fluid Dynamics",
+    "rooms": [
+      "G009-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "SPC 506": {
+    "date": "2026-11-10",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Computational Fluid Dynamics",
+    "rooms": [
+      "G009-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "BMS 428": {
+    "date": "2026-11-11",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Pathology",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "CIE 337": {
+    "date": "2026-11-11",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Communications Theory and Systems",
+    "rooms": [
+      "G033-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "CSAI 252": {
+    "date": "2026-11-11",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Introduction to Computer Networks",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "ITNS 403": {
+    "date": "2026-11-11",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Storage Area Networks",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 4
+    }
+  },
+  "REE 302": {
+    "date": "2026-11-11",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Machine Design",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "CIE 227": {
+    "date": "2026-11-11",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Signals and Systems",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SCH 105": {
+    "date": "2026-11-11",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Critical Thinking",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "CIE 237": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Probability and Stochastic Processes",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "DSAI 403": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Nature inspired computation",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "MATSCI 425": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Main Group and Transition Metals CHEM",
+    "rooms": [
+      "F013-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "NANENG 307": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Physics of Electronic Materials",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "PHYS 311": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Statistical Mechanics I",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "REE 425": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Thermal Solar Energy",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "REE 515": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Thermal Solar Energy",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SUST 320": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Feasibility & Sust Analysis for Projects",
+    "rooms": [
+      "G009-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SW 252": {
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Embedded Systems",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "BMS 430": {
+    "date": "2026-11-11",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Advanced Strategies in Organic Synthesis",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "MGMT 101": {
+    "date": "2026-11-11",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Principles of Management",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SCH 261": {
+    "date": "2026-11-11",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Engineering Project Management",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "BMS 434": {
+    "date": "2026-11-11",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Epigenetics in Health and Disease",
+    "rooms": [
+      "G009-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "DSAI 104": {
+    "date": "2026-11-11",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Knowledge Representation and Reasoning",
+    "rooms": [
+      "G004-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "ENV 320": {
+    "date": "2026-11-11",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Water Treatment Engineering",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "MATH 203": {
+    "date": "2026-11-11",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Introduction to Discrete Mathematics",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SWAPD 402": {
+    "date": "2026-11-11",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Mobile Application Development",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "BMS 202": {
+    "date": "2026-11-11",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Cell Biology",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "CIE 427": {
+    "date": "2026-11-11",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Big Data Analytics",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "ENGR 207": {
+    "date": "2026-11-11",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Fluid Mechanics",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "ENV 454": {
+    "date": "2026-11-11",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Life Cycle Assessment",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "ENV 524": {
+    "date": "2026-11-11",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Life Cycle Assessment",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "FINC 201": {
+    "date": "2026-11-11",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Principles of Finance",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "PHYS 204": {
+    "date": "2026-11-11",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Analytical Mechanics",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "BMS 327": {
+    "date": "2026-11-11",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Neurobiology and Practicum",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "CSAI 203": {
+    "date": "2026-11-11",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Introduction to Software Engineering",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "ENGR 102": {
+    "date": "2026-11-11",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Introduction to Engineering Design",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "NANENG 410": {
+    "date": "2026-11-11",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Real-Time Embedded System & MicroCnt Des",
+    "rooms": [
+      "F015-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "PHYS 102": {
+    "date": "2026-11-11",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Introduction to Electromagnetism",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "PHYS 126": {
+    "date": "2026-11-11",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Introduction to Electromagnetism for Eng",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "NANENG 440": {
+    "date": "2026-11-12",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Nanofabrication Vacuum and Equipment Tech",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "REE 311": {
+    "date": "2026-11-12",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Electric Machines",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SCH 283": {
+    "date": "2026-11-12",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Sociology",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SPC 577": {
+    "date": "2026-11-12",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Airports and Airlines",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "SWGCG 402": {
+    "date": "2026-11-12",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Visual Effects Production",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 5
+    }
+  },
+  "CIE 302": {
+    "date": "2026-11-12",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Operating Systems",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "MGMT 201": {
+    "date": "2026-11-12",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Human Resources Management",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SCHN 410": {
+    "date": "2026-11-12",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Information Technology in Supply Chains",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SW 301": {
+    "date": "2026-11-12",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Object-Oriented Analysis and Design",
+    "rooms": [
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "CHEM 101": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Chemistry I",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "ENGR 201": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Circuits and Electronics",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "ENV 323": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Municipal Solid Waste Management",
+    "rooms": [
+      "F013-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "ENV 506": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Water Desalination",
+    "rooms": [
+      "F014-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "REE 429": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Smart Grid",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "REE 521": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Smart Grid",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SCH 163": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Sustain, Social & Ethical Issues in Comp",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SCH 266": {
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Sociology",
+    "rooms": [
+      "G011-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "BTEM 301": {
+    "date": "2026-11-12",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Management of Innovation",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "DSAI 456": {
+    "date": "2026-11-12",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Speech Recognition",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "FINC 305": {
+    "date": "2026-11-12",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Financial Reporting",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "NANOSC 308": {
+    "date": "2026-11-12",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Introduction to Polymer Science",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "PHYS 316": {
+    "date": "2026-11-12",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Mathematical Physics I",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "BMS 304": {
+    "date": "2026-11-12",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Biomedical Scientific Ethics & Safety",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "CIE 404": {
+    "date": "2026-11-12",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Cloud Computing Technology",
+    "rooms": [
+      "G025-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "CSAI 201": {
+    "date": "2026-11-12",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Data Structures",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B",
+      "G009-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "NANENG 308": {
+    "date": "2026-11-12",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Solid State Devices",
+    "rooms": [],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SCHN 305": {
+    "date": "2026-11-12",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Models and Business Simulations",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SPC 477": {
+    "date": "2026-11-12",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Airports and Airlines Management",
+    "rooms": [
+      "G004-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "PHIL 301": {
+    "date": "2026-11-12",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Philosophical Thinking",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SCH 260": {
+    "date": "2026-11-12",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Philosophical Thinking",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "BMS 474": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Genomics and Data Sciences",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "CSAI 251": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Algorithm Design and Analysis",
+    "rooms": [
+      "G036-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "ENV 458": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Energy from Biomass and Waste",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "ENV 558": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Energy from Biomass and Waste",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "MATH 102": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Calculus II",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "NANENG 203": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Electric Circuits",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "NANENG 525": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Optical MEMS",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "REE 306": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Advanced Thermodynamics",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SPC 206": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Advanced Thermodynamics",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SWHCI 402": {
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "AI Based Products and Services",
+    "rooms": [
+      "F013-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "CIE 317": {
+    "date": "2026-11-14",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Machine Learning",
+    "rooms": [
+      "G025-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "CSAI 205": {
+    "date": "2026-11-14",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Fundamentals of Circuits and Electronics",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "SWAPD 401": {
+    "date": "2026-11-14",
+    "start": "08:30",
+    "end": "09:30",
+    "name": "Software Testing, Validation, and QA",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "BGEN 210": {
+    "date": "2026-11-14",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Programming",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "BMS 333": {
+    "date": "2026-11-14",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Drug Design & Computational Chemistry",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "MATH 201": {
+    "date": "2026-11-14",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Linear Algebra and Vector Geometry",
+    "rooms": [
+      "F005-F"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 6
+    }
+  },
+  "MGMT 301": {
+    "date": "2026-11-14",
+    "start": "09:45",
+    "end": "10:45",
+    "name": "Project Management 2",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "BIOL 101": {
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Biology I",
+    "rooms": [
+      "G038-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "BMS 475": {
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Bio Chemistry of Hormones and Vitamins",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "CSAI 102": {
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Digital Logic and Computer Architecture",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "CSAI 112": {
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Digital Logic and Computer Architecture",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "SPC 419": {
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Turbomachinery",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "SW 402": {
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": "12:00",
+    "name": "Software Project Management",
+    "rooms": [
+      "G033-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "ENV 328": {
+    "date": "2026-11-14",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Sampling & Monitor of Environmental Poll",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "MATH 301": {
+    "date": "2026-11-14",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Probability and Statistics",
+    "rooms": [
+      "G035-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "SPC 337": {
+    "date": "2026-11-14",
+    "start": "12:15",
+    "end": "13:15",
+    "name": "Gas Dynamics",
+    "rooms": [
+      "G005-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "REE 418": {
+    "date": "2026-11-14",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Aerodynamics of Wind Turbines",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "SCH 258": {
+    "date": "2026-11-14",
+    "start": "13:30",
+    "end": "14:30",
+    "name": "Arabic Literature",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "CIE 448": {
+    "date": "2026-11-14",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "IoT Systems Engineering",
+    "rooms": [
+      "F015-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "DSAI 307": {
+    "date": "2026-11-14",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Statistical Inference",
+    "rooms": [
+      "G025-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "ECON 310": {
+    "date": "2026-11-14",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Intermediate Microeconomic Theory",
+    "rooms": [
+      "G008-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "ENGR 121": {
+    "date": "2026-11-14",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Engineering Drawing",
+    "rooms": [
+      "G006-B",
+      "G011-B",
+      "G019-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "ITNS 406": {
+    "date": "2026-11-14",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Network Resilience and Hardening",
+    "rooms": [
+      "G008-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "NANENG 439": {
+    "date": "2026-11-14",
+    "start": "14:45",
+    "end": "15:45",
+    "name": "Advanced Digital ASIC Design",
+    "rooms": [
+      "F006-D"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "FINC 410": {
+    "date": "2026-11-14",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Fixed Income Securities",
+    "rooms": [
+      "F011-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "NANENG 436": {
+    "date": "2026-11-14",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Advanced MEMS Design and Fabrication Tech",
+    "rooms": [
+      "F012-E"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "PHYS 323": {
+    "date": "2026-11-14",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "Quantum Mechanics I",
+    "rooms": [
+      "G007-C"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  },
+  "SW 302": {
+    "date": "2026-11-14",
+    "start": "16:00",
+    "end": "17:00",
+    "name": "User Interface Development",
+    "rooms": [
+      "G006-B"
+    ],
+    "source": {
+      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 7
+    }
+  }
+}

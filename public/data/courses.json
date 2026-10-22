@@ -1,0 +1,26 @@
+{
+  "maps": {
+    "1": ["CSAI 100","CSAI 101","CSAI 102","CSAI 252","MATH 103","ENGL 156","SCH 163"],
+    "2-SWD": ["CSAI 201","CSAI 202","CSAI 203","MATH 105","PHYS 104","SCH 261"],
+    "2-DSAI": ["CSAI 201","CSAI 202","CSAI 205","DSAI 203","MATH 105","SCH 261"],
+    "2-IT": ["CSAI 201","CSAI 202","CSAI 205","IT 205","MATH 105","SCH 261"],
+    "3-SWD": ["CSAI 301","SW 301","SW 252","SWHCI 301","SW 302","SCH 273"],
+    "3-DSAI": ["CSAI 203","CSAI 301","DSAI 307","DSAI 308","MATH 303"],
+    "3-IT": ["CSAI 203","CSAI 301","IT 308","ITNS 301","MATH 205"],
+    "4-SWD": ["SW 401","SWHCI 401","SWHCI 402","SW 402","CSAI 498"],
+    "4-DSAI": ["DSAI 403","CSAI 302","DSAI 402","DSAI 456","CSAI 498"],
+    "4-IT": ["ITNS 403","ITNS 404","ITNS 406","IT 408","IT 405","CSAI 498"]
+  },
+  "sch": ["SCH 105","SCH 110","SCH 163","SCH 210","SCH 211","SCH 244","SCH 258","SCH 260","SCH 261","SCH 262","SCH 263","SCH 264","SCH 266","SCH 273","SCH 275","SCH 277","SCH 281","SCH 282","SCH 283","SCH 285","SCH 299"],
+  "aliases": {"CSAI 111":"CSAI 101","CSAI 112":"CSAI 102"},
+  "firstYearDisplay": {"CSAI 101":"CSAI 111","CSAI 102":"CSAI 112"},
+  "noMidterm": ["CSAI 151","CSAI 204","CSAI 351","CSAI 498","CSAI 499","DSAI 202","DSAI 301","DSAI 311","DSAI 325","DSAI 352","IT 206","IT 220","IT 222","IT 309","IT 310","IT 405","IT 408","ITNS 342","ITNS 407","ITNS 408","SWHCI 451","SWHCI 452","SWHCI 453","MATH 307","PHYS 103","ENGL 156"],
+  "names": {
+    "CSAI 100":"Introduction to Computational Science and AI","CSAI 101":"Fundamentals of Programming and Computer Science","CSAI 102":"Digital Logic and Computer Architecture","CSAI 111":"Fundamentals of Programming and Computer Science","CSAI 112":"Digital Logic and Computer Architecture","CSAI 151":"Object-Oriented Programming","CSAI 201":"Data Structures","CSAI 202":"Introduction to Database Systems","CSAI 203":"Introduction to Software Engineering","CSAI 204":"Operating Systems","CSAI 205":"Fundamentals of Circuits and Electronics","CSAI 251":"Algorithm Design and Analysis","CSAI 252":"Introduction to Computer Networks","CSAI 253":"Machine Learning","CSAI 301":"Artificial Intelligence","CSAI 302":"Advanced Database Systems","CSAI 351":"Principles and Practices for Secure Computing","CSAI 498":"Senior Project - Part 1","CSAI 499":"Senior Project - Part 2",
+    "CHEM 103":"Introduction to Chemistry for Engineers","CSCI 101":"Introduction to Computer Science","ENGL 004":"Remedial English 3","ENGL 156":"Technical English 1","ENGR 102":"Introduction to Engineering Design","ENGR 121":"Engineering Drawing","MATH 103":"Calculus for Computational Sciences","MATH 104":"Linear Algebra","MATH 105":"Probability and Statistics","MATH 205":"Discrete Mathematics for Computational Sciences","MATH 303":"Linear and Non-linear Programming for Computational Sciences","MATH 307":"Numerical Methods","PHYS 103":"Physics 1","PHYS 104":"Physics 2",
+    "DSAI 202":"Data Governance","DSAI 203":"Data Integration and Visualization","DSAI 301":"Data Mining and Information Retrieval","DSAI 307":"Statistical Inference","DSAI 308":"Deep Learning","DSAI 311":"Interpretability and Explainability in AI","DSAI 325":"Introduction to Information Theory","DSAI 352":"Computer Vision","DSAI 353":"Natural Language Processing","DSAI 402":"Reinforcement Learning","DSAI 403":"Nature Inspired Computation","DSAI 406":"Machine Learning Engineering for Production","DSAI 427":"Big Data Analytics","DSAI 456":"Speech Recognition",
+    "SW 252":"Embedded Systems","SW 301":"Object-Oriented Analysis and Design","SW 302":"User Interface Development","SW 401":"Parallel and Distributed Computing","SW 402":"Software Project Management","SWHCI 301":"Prototyping Algorithmic Experiences","SWHCI 352":"User-Focused Sensing Systems","SWHCI 401":"Human Information Processing and Artificial Intelligence","SWHCI 402":"AI Based Products and Services","SWHCI 451":"Cognitive Modeling for HCI","SWHCI 452":"Designing Extended Reality Experiences","SWHCI 453":"Human Factors",
+    "IT 205":"Enterprise System Architecture","IT 206":"Fundamentals of IT Governance and Risk Management","IT 308":"Cloud Computing Architecture","IT 309":"IT User-Experience Design","IT 310":"Foundations of Cybersecurity and Security Management","IT 405":"Enterprise Resources Planning","IT 408":"Fundamentals of Cybersecurity and Encryption","ITNS 301":"Network Administration","ITNS 342":"IoT Systems and Application Development","ITNS 403":"Storage Area Networks","ITNS 404":"Network Performance Monitoring and Troubleshooting","ITNS 406":"Network Resilience and Hardening","ITNS 407":"IT Audit and Risk Management","ITNS 408":"Network Security",
+    "SCH 163":"Sustainability, Social and Ethical Issues in Computing","SCH 261":"Engineering Project Management","SCH 273":"Cognitive Psychology"
+  }
+}
