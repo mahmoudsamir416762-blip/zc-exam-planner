@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0868d7"><title>ZC Exam Planner</title>
-  <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="mobile.css">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="mobile.css"><link rel="stylesheet" href="header-credit.css">
 </head>
 <body>
-<header><a class="brand" href="#" aria-label="ZC Exam Planner home"><span class="seal">ZC</span><span>Exam Planner</span></a><div class="top-actions"><button id="languageToggle" class="text-button" aria-label="Switch language">العربية</button><span class="term">Zewail City · Fall 2026</span></div></header>
+<header><div class="brand-stack"><a class="brand" href="#" aria-label="ZC Exam Planner home"><span class="seal">ZC</span><span>Exam Planner</span></a><span class="made-by">Made by Rashed</span></div><div class="top-actions"><button id="languageToggle" class="text-button" aria-label="Switch language">العربية</button><span class="term">Zewail City · Fall 2026</span></div></header>
 <main>
   <section id="modeScreen" class="screen active"><div class="welcome"><div class="eyebrow">EXAM SCHEDULE</div><h1>Find your midterm exams.</h1><p>Use your university ID to get your registered courses and assigned rooms.</p><div class="mode-grid primary-first"><button class="mode-card primary" data-mode="auto"><span class="mode-icon">⌕</span><h2>Search by university ID</h2><p>The fastest way to build your schedule and find your room.</p></button><button class="mode-card" data-mode="manual"><span class="mode-icon">✦</span><h2>Build it manually</h2><p>Choose your year, major, and courses yourself.</p></button></div></div></section>
   <section id="idScreen" class="screen"><div class="step-wrap"><button class="back-link" data-back="modeScreen">← Back</button><h1 class="step-title">Find my schedule</h1><p class="step-lead">Enter your university ID exactly as it appears in the examination lists.</p><div class="input-wrap"><label for="studentId">University ID</label><input id="studentId" inputmode="numeric" maxlength="9" autocomplete="off" placeholder="8–9 digit university ID" aria-describedby="lookupError"><label class="check-row"><input id="saveAuto" type="checkbox" checked><span>Save my schedule on this device only</span></label><p class="privacy">Your saved schedule stays in this browser. Your ID is used only to look up your rooms.</p><p id="lookupError" class="error" role="alert"></p><button id="lookup" class="button">Find my exams</button></div></div></section>
@@ -26,6 +26,6 @@
     <section class="subjects"><div class="subjects-head"><div><h2>My selected courses</h2><p>Add or remove courses when needed.</p></div><button id="editBtn" class="outline">Edit courses</button></div><div id="names" class="names"></div><div id="edit" class="edit"><input id="search" class="search" placeholder="Search a course to add or remove..."><div id="subjectGrid" class="grid"></div><button id="doneEdit" class="button">Done editing</button></div></section>
   </section>
 </main>
-<footer>Made by <strong>Rashed</strong></footer>
+<footer>Zewail City · Fall 2026</footer>
 <script src="config.js"></script><script src="app.js" defer></script><script src="app-supabase.js" defer></script>
 </body></html>

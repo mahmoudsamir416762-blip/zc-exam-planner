@@ -1,6 +1,6 @@
 let DATA,year='1',major='SWD',mode='',selected=[],rooms={},selectedSch=[];const $=s=>document.querySelector(s),key='zc-exam-schedule-v2';
 const canonicalCourse=c=>DATA.aliases[c]||c;const nameOf=c=>DATA.names[canonicalCourse(c)]||c;const displayCode=c=>mode==='manual'&&year==='1'&&DATA.firstYearDisplay[canonicalCourse(c)]?DATA.firstYearDisplay[canonicalCourse(c)]:canonicalCourse(c);
-const show=id=>{document.querySelectorAll('.screen,.dash').forEach(x=>x.classList.remove('active'));$('#'+id).classList.add('active');scrollTo(0,0)};
+const show=(id,remember=true)=>{document.querySelectorAll('.screen,.dash').forEach(x=>x.classList.remove('active'));$('#'+id).classList.add('active');if(remember&&history.state?.screen!==id)history.pushState({screen:id},'',`#${id}`);scrollTo(0,0)};
 const iso=e=>`${e.date}T${e.start}`;const dt=e=>new Date(iso(e));const end=e=>new Date(`${e.date}T${e.end}`);const days=e=>Math.ceil((dt(e)-new Date())/86400000);const tone=e=>days(e)>=11?'green':days(e)>=6?'yellow':'red';const fmt=e=>new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'numeric',month:'short'}).format(dt(e));
 function allCourses(){return [...new Set([...Object.values(DATA.maps).flat(),...DATA.sch,...Object.keys(DATA.names)])].map(c=>canonicalCourse(c)).filter((c,i,a)=>a.indexOf(c)===i)}function courses(){return DATA.maps[year==='1'?'1':`${year}-${major}`]||[]}
 function save(){if($('#saveDash').checked)localStorage.setItem(key,JSON.stringify({year,major,mode,selected,rooms}));}function forget(){localStorage.removeItem(key);location.reload()}
@@ -21,6 +21,9 @@ function renderManualCourses(){
   $('#manualCoursesBack').onclick=()=>show(year==='1'?'manualYearScreen':'manualSchScreen');
 }
 function init(){
+  history.replaceState({screen:'modeScreen'},'',location.pathname+location.search+'#modeScreen');
+  addEventListener('popstate',event=>show(event.state?.screen||'modeScreen',false));
+  $('.brand').onclick=event=>{event.preventDefault();localStorage.removeItem(key);show('modeScreen')};
   document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{
     if(b.dataset.mode==='auto')return show('idScreen');
     mode='manual';rooms={};selected=[];selectedSch=[];show('manualYearScreen');
@@ -36,7 +39,7 @@ function init(){
   $('#continueSch').onclick=()=>{selectedSch=[...document.querySelectorAll('#schList input:checked')].map(x=>x.value);selected=[...courses(),...selectedSch];renderManualCourses();show('manualCoursesScreen')};
   $('#finishManual').onclick=()=>{selected=[...document.querySelectorAll('#manualCourseList input:checked')].map(x=>x.value);render()};
   document.querySelectorAll('[data-back]').forEach(b=>b.onclick=()=>show(b.dataset.back));
-  $('#editBtn').onclick=()=>$('#edit').classList.toggle('show');$('#doneEdit').onclick=()=>$('#edit').classList.remove('show');$('#search').oninput=e=>document.querySelectorAll('.subject').forEach(x=>x.hidden=!x.dataset.q.toLowerCase().includes(e.target.value.toLowerCase()));$('#saveDash').onchange=save;$('#forget').onclick=forget;$('#restart').onclick=()=>{localStorage.removeItem(key);show('modeScreen')};$('#confirmManualRooms').onclick=()=>window.zcLookup?.($('#manualRoomId').value.trim(),'manual');$('#downloadIcs').onclick=ics;$('#printSchedule').onclick=print;$('#shareSchedule').onclick=()=>navigator.share?.({title:'ZC Exam Planner',text:$('#dashTitle').textContent,url:location.href});const saved=JSON.parse(localStorage.getItem(key)||'null');if(saved){({year,major,mode,selected,rooms}=saved);render()}}
+  $('#editBtn').onclick=()=>$('#edit').classList.toggle('show');$('#doneEdit').onclick=()=>$('#edit').classList.remove('show');$('#search').oninput=e=>document.querySelectorAll('.subject').forEach(x=>x.hidden=!x.dataset.q.toLowerCase().includes(e.target.value.toLowerCase()));$('#saveDash').onchange=save;$('#forget').onclick=forget;$('#restart').onclick=()=>{localStorage.removeItem(key);show('modeScreen')};$('#confirmManualRooms').onclick=()=>window.zcLookup?.($('#manualRoomId').value.trim(),'manual');$('#downloadIcs').onclick=ics;$('#printSchedule').onclick=print;$('#shareSchedule').onclick=()=>navigator.share?.({title:'ZC Exam Planner',text:$('#dashTitle').textContent,url:location.href});const saved=JSON.parse(localStorage.getItem(key)||'null');if(saved){({year,major,mode,selected,rooms}=saved);render();history.replaceState({screen:'dashboard'},'',location.pathname+location.search+'#dashboard')}}
 let scheduleResizeTimer;
 addEventListener('resize',()=>{
   clearTimeout(scheduleResizeTimer);

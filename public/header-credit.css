@@ -1,0 +1,3 @@
+.brand-stack { display: flex; align-items: center; gap: 13px; }
+.made-by { font-size: 12px; font-weight: 800; color: var(--blue); padding: 7px 10px; border-radius: 99px; background: #eaf7ff; border: 1px solid #b9dcf5; white-space: nowrap; }
+@media (max-width: 700px) { .brand-stack { gap: 8px; } .made-by { font-size: 10px; padding: 6px 8px; } }
