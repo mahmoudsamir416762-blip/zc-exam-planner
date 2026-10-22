@@ -66,7 +66,7 @@
       if (automatic) {
         const save = document.getElementById("saveAuto");
         document.getElementById("saveDash").checked = save.checked;
-        if (save.checked) saveSchedule();
+        if (save.checked) save();
       }
       const newStatus = document.getElementById(automatic ? "lookupError" : "manualRoomError");
       if (newStatus) newStatus.textContent = automatic ? "" : `${count} personal room${count === 1 ? "" : "s"} confirmed.`;
