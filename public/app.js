@@ -17,29 +17,32 @@ function renderSubjects(){$('#subjectGrid').innerHTML=allCourses().map(c=>`<labe
 function google(c,e){const start=iso(e).replace(/[-:]/g,'')+'00',finish=`${e.date}T${e.end}`.replace(/[-:]/g,'')+'00';return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(nameOf(c))}&dates=${start}/${finish}&location=${encodeURIComponent(rooms[c]||e.rooms.join(', '))}`}
 function ics(){const rows=examEntries().filter(x=>x[1]).map(([c,e])=>`BEGIN:VEVENT\nUID:${c}-${e.date}@zc\nDTSTART;TZID=Africa/Cairo:${iso(e).replace(/[-:]/g,'')}00\nDTEND;TZID=Africa/Cairo:${e.date.replace(/-/g,'')}T${e.end.replace(':','')}00\nSUMMARY:${nameOf(c)}\nLOCATION:${rooms[c]||e.rooms.join(', ')}\nBEGIN:VALARM\nTRIGGER:-P1D\nACTION:DISPLAY\nEND:VALARM\nBEGIN:VALARM\nTRIGGER:-PT2H\nACTION:DISPLAY\nEND:VALARM\nEND:VEVENT`).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([`BEGIN:VCALENDAR\nVERSION:2.0\n${rows}\nEND:VCALENDAR`],{type:'text/calendar'}));a.download='zc-exams.ics';a.click()}
 function downloadImage(){
-  /* This intentionally always draws the desktop calendar grid, even on a phone. */
+  /* Always export the full desktop-style calendar, no matter which device created it. */
   const items=examEntries().filter(x=>x[1]).sort((a,b)=>iso(a[1]).localeCompare(iso(b[1])));
-  const dates=[...new Map(items.map(([,e])=>[e.date,e])).values()];
-  const scale=1.35,hour=60*scale,axis=76,width=Math.max(1000,axis+dates.length*205),header=144,height=header+9*hour+38;
-  const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
-  canvas.width=width;canvas.height=height;
-  ctx.fillStyle='#f7fbfe';ctx.fillRect(0,0,width,height);
-  ctx.fillStyle='#0a5b8f';ctx.fillRect(0,0,width,44);
-  ctx.fillStyle='#fff';ctx.font='700 24px Arial';ctx.textAlign='center';ctx.fillText('November 2026',width/2,29);
-  ctx.fillStyle='#f5fafc';ctx.fillRect(axis,44,width-axis,100);
-  const col=(width-axis)/Math.max(dates.length,1);
-  dates.forEach((e,i)=>{const x=axis+i*col;ctx.strokeStyle='#dce8f1';ctx.strokeRect(x,44,col,100);ctx.fillStyle='#132a43';ctx.font='18px Arial';ctx.textAlign='center';ctx.fillText(new Intl.DateTimeFormat('en-GB',{weekday:'short'}).format(dt(e)),x+col/2,76);ctx.font='700 30px Arial';ctx.fillText(String(dt(e).getDate()),x+col/2,116)});
-  ctx.textAlign='right';for(let h=0;h<=9;h++){const y=header+h*hour;ctx.strokeStyle='#edf3f6';ctx.beginPath();ctx.moveTo(axis,y);ctx.lineTo(width,y);ctx.stroke();ctx.fillStyle='#60758c';ctx.font='14px monospace';ctx.fillText(String(8+h).padStart(2,'0')+':00',axis-9,y+5)}
-  dates.forEach((e,i)=>{const x=axis+i*col;ctx.strokeStyle='#dce8f1';ctx.beginPath();ctx.moveTo(x,header);ctx.lineTo(x,height-38);ctx.stroke();items.filter(([,exam])=>exam.date===e.date).forEach(([code,exam])=>{const minutes=dt(exam).getHours()*60+dt(exam).getMinutes()-480,y=header+minutes*scale,duration=Math.max(35,(end(exam)-dt(exam))/60000*scale),color=tone(exam)==='green'?'#118a67':tone(exam)==='yellow'?'#e49d13':'#e34a4a';ctx.fillStyle=color;ctx.beginPath();if(ctx.roundRect)ctx.roundRect(x+8,y,col-16,duration,8);else ctx.rect(x+8,y,col-16,duration);ctx.fill();ctx.fillStyle='#fff';ctx.textAlign='left';ctx.font='700 15px Arial';ctx.fillText(displayCode(code),x+15,y+21);ctx.font='12px Arial';ctx.fillText(exam.start+' · '+(rooms[code]||exam.rooms.join(', ')),x+15,y+39)})});
-  ctx.fillStyle='#082852';ctx.textAlign='left';ctx.font='700 17px Arial';ctx.fillText('ZC Exam Planner · Made by Rashed',28,height-14);
-  const saveImage=(url)=>{
-    const link=document.createElement('a');link.download='zc-exam-schedule.png';link.href=url;link.style.display='none';document.body.append(link);link.click();link.remove();
-    const status=$('#downloadStatus');
-    if(status){status.replaceChildren();const retry=document.createElement('a');retry.href=url;retry.download='zc-exam-schedule.png';retry.textContent='If the download did not start, tap here to save the image.';status.append(retry)}
-  };
-  /* Blob URLs download correctly in Chrome and Android browsers, unlike canvas data URLs. */
-  if(canvas.toBlob)canvas.toBlob(blob=>saveImage(URL.createObjectURL(blob)),'image/png');
-  else saveImage(canvas.toDataURL('image/png'));
+  const dates=[...new Map(items.map(([,exam])=>[exam.date,exam])).values()];
+  const padding=38,axis=100,dayWidth=230,minuteHeight=1.16,gridHeight=9*60*minuteHeight;
+  const width=Math.max(1280,padding*2+axis+dates.length*dayWidth),height=padding+112+58+gridHeight+64;
+  const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d'),pixelRatio=2;
+  canvas.width=width*pixelRatio;canvas.height=height*pixelRatio;ctx.scale(pixelRatio,pixelRatio);
+  const status=$('#downloadStatus');if(status)status.textContent='Preparing your calendar image…';
+  const round=(x,y,w,h,r=14)=>{ctx.beginPath();if(ctx.roundRect)ctx.roundRect(x,y,w,h,r);else{const radius=Math.min(r,w/2,h/2);ctx.moveTo(x+radius,y);ctx.arcTo(x+w,y,x+w,y+h,radius);ctx.arcTo(x+w,y+h,x,y+h,radius);ctx.arcTo(x,y+h,x,y,radius);ctx.arcTo(x,y,x+w,y,radius)}ctx.closePath()};
+  const trim=(text,max)=>text.length>max?`${text.slice(0,Math.max(0,max-1))}…`:text;
+  const calendarX=padding,calendarY=padding+112,calendarW=width-padding*2,monthH=44,dayH=58,gridY=calendarY+monthH+dayH,gridX=calendarX+axis,col=(calendarW-axis)/Math.max(dates.length,1);
+  const bg=ctx.createLinearGradient(0,0,width,height);bg.addColorStop(0,'#eef8ff');bg.addColorStop(1,'#f7fcfe');ctx.fillStyle=bg;ctx.fillRect(0,0,width,height);
+  const header=ctx.createLinearGradient(padding,0,width-padding,0);header.addColorStop(0,'#082852');header.addColorStop(.58,'#0868d7');header.addColorStop(1,'#00a7bc');round(padding,padding,width-padding*2,86,18);ctx.fillStyle=header;ctx.fill();
+  round(padding+18,padding+19,47,47,13);ctx.fillStyle='#fff';ctx.fill();ctx.fillStyle='#0868d7';ctx.font='700 16px Arial';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('ZC',padding+41.5,padding+42);
+  ctx.fillStyle='#fff';ctx.textAlign='left';ctx.font='700 27px Arial';ctx.fillText('ZC Exam Planner',padding+82,padding+36);ctx.font='15px Arial';ctx.globalAlpha=.88;ctx.fillText('Your personal midterm examination schedule · Fall 2026',padding+82,padding+60);ctx.globalAlpha=1;
+  ctx.save();ctx.shadowColor='#0a35501b';ctx.shadowBlur=18;ctx.shadowOffsetY=7;round(calendarX,calendarY,calendarW,monthH+dayH+gridHeight,17);ctx.fillStyle='#fff';ctx.fill();ctx.restore();ctx.strokeStyle='#cfe1ed';ctx.lineWidth=1;round(calendarX,calendarY,calendarW,monthH+dayH+gridHeight,17);ctx.stroke();
+  round(calendarX,calendarY,calendarW,monthH,17);ctx.fillStyle='#0a5b8f';ctx.fill();ctx.fillRect(calendarX,calendarY+26,calendarW,18);ctx.fillStyle='#fff';ctx.textAlign='center';ctx.font='700 19px Arial';ctx.textBaseline='middle';ctx.fillText('NOVEMBER 2026',calendarX+calendarW/2,calendarY+22);
+  ctx.fillStyle='#eff7fb';ctx.fillRect(calendarX,calendarY+monthH,axis,dayH);ctx.fillStyle='#f6fbfe';ctx.fillRect(gridX,calendarY+monthH,calendarW-axis,dayH);ctx.strokeStyle='#dce8f1';ctx.lineWidth=1;
+  ctx.beginPath();ctx.moveTo(calendarX,gridY);ctx.lineTo(calendarX+calendarW,gridY);ctx.stroke();ctx.fillStyle='#60758c';ctx.font='700 11px Arial';ctx.textAlign='center';ctx.fillText('TIME',calendarX+axis/2,calendarY+monthH+dayH/2);
+  dates.forEach((exam,index)=>{const x=gridX+index*col;ctx.beginPath();ctx.moveTo(x,calendarY+monthH);ctx.lineTo(x,gridY+gridHeight);ctx.stroke();ctx.fillStyle='#163450';ctx.font='700 15px Arial';ctx.textAlign='center';ctx.fillText(new Intl.DateTimeFormat('en-GB',{weekday:'short'}).format(dt(exam)).toUpperCase(),x+col/2,calendarY+monthH+20);ctx.font='700 25px Arial';ctx.fillText(String(dt(exam).getDate()),x+col/2,calendarY+monthH+43)});
+  ctx.beginPath();ctx.moveTo(gridX+dates.length*col,calendarY+monthH);ctx.lineTo(gridX+dates.length*col,gridY+gridHeight);ctx.stroke();
+  for(let hour=0;hour<=9;hour++){const y=gridY+hour*60*minuteHeight;ctx.strokeStyle='#e5eff5';ctx.beginPath();ctx.moveTo(calendarX,y);ctx.lineTo(calendarX+calendarW,y);ctx.stroke();ctx.fillStyle='#58718a';ctx.font='13px monospace';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(`${String(8+hour).padStart(2,'0')}:00`,calendarX+axis/2,y)}
+  dates.forEach((day,index)=>{const x=gridX+index*col;const daily=items.filter(([,exam])=>exam.date===day.date);daily.forEach(([code,exam])=>{const overlapping=daily.filter(([,candidate])=>dt(candidate)<end(exam)&&end(candidate)>dt(exam)).sort((a,b)=>iso(a[1]).localeCompare(iso(b[1])));const overlapIndex=overlapping.findIndex(([candidate])=>candidate===code);const slotWidth=(col-18)/Math.max(overlapping.length,1);const slotX=x+9+overlapIndex*slotWidth,slotY=gridY+(dt(exam).getHours()*60+dt(exam).getMinutes()-480)*minuteHeight,slotH=Math.max(42,(end(exam)-dt(exam))/60000*minuteHeight),slotW=slotWidth-7;const color=tone(exam)==='green'?'#118a67':tone(exam)==='yellow'?'#d99309':'#d94343';ctx.save();ctx.shadowColor='#12314b26';ctx.shadowBlur=8;ctx.shadowOffsetY=3;round(slotX,slotY,slotW,slotH,10);ctx.fillStyle=color;ctx.fill();ctx.restore();ctx.fillStyle='#fff';ctx.textAlign='left';ctx.textBaseline='alphabetic';ctx.font='700 14px Arial';ctx.fillText(trim(displayCode(code),18),slotX+10,slotY+19);ctx.font='700 11px Arial';ctx.fillText(`${exam.start}–${exam.end}`,slotX+10,slotY+36);if(slotH>58){const room=rooms[code]?`Your room: ${rooms[code]}`:`Rooms: ${exam.rooms.join(', ')||'TBA'}`;ctx.font='10px Arial';ctx.fillText(trim(room,Math.max(13,Math.floor(slotW/6.2))),slotX+10,slotY+52)}})});
+  ctx.fillStyle='#547089';ctx.textAlign='left';ctx.font='13px Arial';ctx.fillText('Times are Cairo local time · Room details are based on your selected schedule.',padding, height-25);ctx.textAlign='right';ctx.font='700 13px Arial';ctx.fillStyle='#0a5b8f';ctx.fillText('Made by Rashed',width-padding,height-25);
+  const saveImage=(url)=>{const link=document.createElement('a');link.download='zc-exam-schedule.png';link.href=url;link.style.display='none';document.body.append(link);link.click();link.remove();if(status){status.replaceChildren();const retry=document.createElement('a');retry.href=url;retry.download='zc-exam-schedule.png';retry.textContent='If the download did not start, tap here to save the image.';status.append(retry)}};
+  if(canvas.toBlob)canvas.toBlob(blob=>saveImage(URL.createObjectURL(blob)),'image/png');else saveImage(canvas.toDataURL('image/png'));
 }
 function renderManualCourses(){
   const optional=year==='1'&&!selected.includes('ENGL 156')?['ENGL 156']:[];
