@@ -1,10 +1,4 @@
 @media (max-width: 700px) {
-  .calendar { background: #fff; border: 1px solid var(--line); overflow-x: auto; overflow-y: hidden; }
-  .timeline { display: grid !important; min-width: 680px; padding-right: 42px; }
-  .time-axis { width: 42px; font-size: 9px; }
-  .day-head { padding: 7px; font-size: 12px; }
-  .day-head span { font-size: 17px; }
-  .slot { left: 4px; right: 4px; padding: 5px; font-size: 9px; }
   .agenda-intro {
     font-size: 12px;
     font-weight: 700;
