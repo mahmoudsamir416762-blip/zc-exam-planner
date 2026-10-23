@@ -1,4 +1,12 @@
 @media (max-width: 700px) {
+  .download-status {
+    display: none;
+    margin: 8px 0 0;
+    font-size: 12px;
+    line-height: 1.45;
+  }
+  .download-status:not(:empty) { display: block; }
+  .download-status a { color: var(--blue); font-weight: 700; }
   .agenda-intro {
     font-size: 12px;
     font-weight: 700;

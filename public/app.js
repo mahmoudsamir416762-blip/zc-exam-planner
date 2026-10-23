@@ -32,7 +32,14 @@ function downloadImage(){
   ctx.textAlign='right';for(let h=0;h<=9;h++){const y=header+h*hour;ctx.strokeStyle='#edf3f6';ctx.beginPath();ctx.moveTo(axis,y);ctx.lineTo(width,y);ctx.stroke();ctx.fillStyle='#60758c';ctx.font='14px monospace';ctx.fillText(String(8+h).padStart(2,'0')+':00',axis-9,y+5)}
   dates.forEach((e,i)=>{const x=axis+i*col;ctx.strokeStyle='#dce8f1';ctx.beginPath();ctx.moveTo(x,header);ctx.lineTo(x,height-38);ctx.stroke();items.filter(([,exam])=>exam.date===e.date).forEach(([code,exam])=>{const minutes=dt(exam).getHours()*60+dt(exam).getMinutes()-480,y=header+minutes*scale,duration=Math.max(35,(end(exam)-dt(exam))/60000*scale),color=tone(exam)==='green'?'#118a67':tone(exam)==='yellow'?'#e49d13':'#e34a4a';ctx.fillStyle=color;ctx.beginPath();if(ctx.roundRect)ctx.roundRect(x+8,y,col-16,duration,8);else ctx.rect(x+8,y,col-16,duration);ctx.fill();ctx.fillStyle='#fff';ctx.textAlign='left';ctx.font='700 15px Arial';ctx.fillText(displayCode(code),x+15,y+21);ctx.font='12px Arial';ctx.fillText(exam.start+' · '+(rooms[code]||exam.rooms.join(', ')),x+15,y+39)})});
   ctx.fillStyle='#082852';ctx.textAlign='left';ctx.font='700 17px Arial';ctx.fillText('ZC Exam Planner · Made by Rashed',28,height-14);
-  const link=document.createElement('a');link.download='zc-exam-schedule.png';link.href=canvas.toDataURL('image/png');link.style.display='none';document.body.append(link);link.click();link.remove();
+  const saveImage=(url)=>{
+    const link=document.createElement('a');link.download='zc-exam-schedule.png';link.href=url;link.style.display='none';document.body.append(link);link.click();link.remove();
+    const status=$('#downloadStatus');
+    if(status){status.replaceChildren();const retry=document.createElement('a');retry.href=url;retry.download='zc-exam-schedule.png';retry.textContent='If the download did not start, tap here to save the image.';status.append(retry)}
+  };
+  /* Blob URLs download correctly in Chrome and Android browsers, unlike canvas data URLs. */
+  if(canvas.toBlob)canvas.toBlob(blob=>saveImage(URL.createObjectURL(blob)),'image/png');
+  else saveImage(canvas.toDataURL('image/png'));
 }
 function renderManualCourses(){
   const optional=year==='1'&&!selected.includes('ENGL 156')?['ENGL 156']:[];
