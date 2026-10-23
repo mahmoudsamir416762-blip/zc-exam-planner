@@ -45,13 +45,7 @@
     return count;
   };
 
-  /* Capture phase replaces the local student-index handler in the published version. */
-  document.addEventListener("click", async (event) => {
-    const button = event.target.closest("#lookup, #confirmManualRooms");
-    if (!button) return;
-    event.preventDefault();
-    event.stopImmediatePropagation();
-    const automatic = button.id === "lookup";
+  async function handleLookup(button, automatic) {
     const input = document.getElementById(automatic ? "studentId" : "manualRoomId");
     const status = document.getElementById(automatic ? "lookupError" : "manualRoomError");
     const studentId = input.value.trim();
@@ -75,5 +69,11 @@
     } finally {
       button.disabled = false;
     }
-  }, true);
+  }
+
+  /* Direct handlers remain reliable even after browser back/forward navigation. */
+  const autoButton = document.getElementById("lookup");
+  const manualButton = document.getElementById("confirmManualRooms");
+  if (autoButton) autoButton.onclick = () => handleLookup(autoButton, true);
+  if (manualButton) manualButton.onclick = () => handleLookup(manualButton, false);
 }());
