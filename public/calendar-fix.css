@@ -1,0 +1,7 @@
+/* Keep the time ruler aligned to the exam grid on every screen size. */
+.timeline { padding-left: 48px; padding-right: 0; }
+.time-axis { left: 0; right: auto; top: 85px; width: 48px; text-align: center; }
+@media (max-width: 700px) {
+  .timeline { padding-left: 42px; padding-right: 0; }
+  .time-axis { left: 0; right: auto; top: 85px; width: 42px; }
+}
