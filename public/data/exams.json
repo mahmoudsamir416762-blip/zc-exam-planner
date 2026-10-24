@@ -677,11 +677,11 @@
       "G006-B",
       "G011-B",
       "G019-B",
-      "F005-F"
+      "G025-B"
     ],
     "source": {
-      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
-      "page": 2
+      "file": "Year1_Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
     }
   },
   "CSAI 111": {
@@ -693,11 +693,11 @@
       "G006-B",
       "G011-B",
       "G019-B",
-      "F005-F"
+      "G025-B"
     ],
     "source": {
-      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
-      "page": 2
+      "file": "Year1_Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
     }
   },
   "CSAI 202": {
@@ -1015,7 +1015,7 @@
     "date": "2026-11-09",
     "start": "08:30",
     "end": "09:30",
-    "name": "Calculus for Computational Science",
+    "name": "Calculus for Computational Sciences",
     "rooms": [
       "F005-F",
       "S006-F"
@@ -1982,11 +1982,12 @@
     "rooms": [
       "G006-B",
       "G011-B",
-      "G019-B"
+      "G019-B",
+      "G025-B"
     ],
     "source": {
-      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
-      "page": 4
+      "file": "Year1_Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
     }
   },
   "ITNS 403": {
@@ -2219,8 +2220,8 @@
       "G004-C"
     ],
     "source": {
-      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
-      "page": 5
+      "file": "Year1_Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 2
     }
   },
   "ENV 320": {
@@ -3081,11 +3082,12 @@
     "rooms": [
       "G006-B",
       "G011-B",
-      "G019-B"
+      "G019-B",
+      "G025-B"
     ],
     "source": {
-      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
-      "page": 7
+      "file": "Year1_Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
     }
   },
   "CSAI 112": {
@@ -3096,11 +3098,12 @@
     "rooms": [
       "G006-B",
       "G011-B",
-      "G019-B"
+      "G019-B",
+      "G025-B"
     ],
     "source": {
-      "file": "Midterm_Exam_Schedule_Fall2026.pdf",
-      "page": 7
+      "file": "Year1_Midterm_Exam_Schedule_Fall2026.pdf",
+      "page": 1
     }
   },
   "SPC 419": {
@@ -3326,4 +3329,4 @@
       "page": 7
     }
   }
-}
+}`n
